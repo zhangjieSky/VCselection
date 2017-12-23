@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>oa.ctitech.cn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+    *{margin:0; padding:0;}
+    .content
+    {
+    padding: 10px;
+    }
+    .button
+    {
+    background-color: #eee;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    }
+    .button:hover
+    {
+      background-color: #eed;
+    }
+    .red{color: red;}
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <p>苹果安装包正在审核中，待审核通过后到app store搜索“掌上同济”重新安装。<br/>敬请关注同济微信（微信号“华中科技大学同济医院”）</p>
+      <br/>
+  	  <div>
+        <a class="button" href="ctitech.cer">安装证书</a>
+        <br>
+              <a class="button" 
+              href="itms-services://?action=download-manifest&url=https://oa.ctitech.cn/app/PalmHospitalTongJi.plist">
+              安装掌上同济</a>
+              <br/>
+              <a class="button" 
+              href="itms-services://?action=download-manifest&url=https://oa.ctitech.cn/app/PalmHospitalTongJiT.plist" style="display:none;">
+              安装掌上医院(测试环境)</a>
+              <br style="display: none" />
+              <a class="button" 
+              href="itms-services://?action=download-manifest&url=https://oa.ctitech.cn/zhangjieJS/manifest.plist">
+              安装掌上医院医护版</a>
+              <dl>
+                <dt>安装说明</dt>
+                <dd>1, 第一步请先点击<span class="red">安装证书</span>，根据提示完成证书安装。</dd>
+                <dd>2, 第二步请点击<span class="red">安装掌上同济</span>，在弹出的提示框中选择“安装”</dd>
+                <dd>3, 回到桌面, 可以看到APP的安装进度</dd>
+              </dl>
+      </div>
+    </div>
+  </body>
+</html>
